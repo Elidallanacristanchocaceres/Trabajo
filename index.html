@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Taller3/style.css">
+    <title>ESTUDIANTES</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h2>Agregar Estudiante</h2>
+    <form id="AgregarEstuForm">
+        <label for="nombre">Nombre-Estudiante</label>
+        <input id="nombre" name="nombre" type="text" required>
+        <br>
+        <label for="grupo">Grupo</label>
+        <input id="grupo" name="grupo" type="number" required>
+        <br>
+        <button type="submit">Agregar Estudiante</button>
+    </form>
+
+    <h2>Buscar Estudiante</h2>
+    <form id="BuscarEstuForm">
+        <label for="buscar-estu">Nombre:</label>
+        <input id="buscar-estu" name="nombre" type="text" required>
+        <button type="submit">Buscar Estudiante</button>
+    </form>
+
+    <h2>Agregar Nota</h2>
+    <form id="AgregarNotaForm">
+        <label for="nombreNota">Nombre del estudiante</label>
+        <input id="nombreNota" name="nombreNota" type="text" required>
+        
+        <label for="nota">Nota</label>
+        <input id="nota" name="nota" type="text" required>
+        <button type="submit">Agregar Nota</button>
+    </form>
+
+    <h2>Promedio Estudiante</h2>
+    <form id="promedioForm">
+        <label for="nombrePromedio">Nombre del estudiante</label>
+        <input id="nombrePromedio" name="nombrePromedio" type="text" required>
+        <button type="submit">Promedio del estudiante</button>
+    </form>
+
+    <div id="resultado"></div>
+
+</body>
+</html>
